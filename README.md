@@ -5,11 +5,11 @@
 ![Minified Size](https://img.shields.io/bundlephobia/min/npm-types?label=minified%20size&style=flat-square)
 ![Version](https://img.shields.io/npm/v/npm-types?style=flat-square)
 
-## npm-types
+# npm-types
 
 Helps you to write a bit less on the terminal
 
-### Usage
+## Usage
 
 For example,
 
@@ -23,6 +23,6 @@ can be replaced with
 npx npm-types mocha chai
 ```
 
-### License
+## License
 
 This software is licensed under the [MIT License](https://choosealicense.com/licenses/mit/). See the [LICENSE](https://github.com/priyanshurav/npm-types/blob/main/LICENSE) for more info
