@@ -23,7 +23,10 @@
     "types",
     "npm"
   ],
-  "author": "Priyanshu Rav",
+  "author": {
+    "name": "Priyanshu Rav",
+    "url": "https://github.com/priyanshurav"
+  },
   "license": "MIT",
   "bugs": {
     "url": "https://github.com/priyanshurav/npm-types/issues"
