@@ -20,7 +20,6 @@ async function main() {
     (cli.argv as any)._,
     (cli.argv as any).installDeprecatedTypes
   );
-  console.log(pkgsToBeInstalled);
 
   info(`Production dependencies to be installed: ${pkgsToBeInstalled.prodDeps.join(", ")}`);
   info("Installing production dependencies...");
