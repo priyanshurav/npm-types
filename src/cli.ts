@@ -20,7 +20,9 @@ async function main() {
     (cli.argv as any)._,
     (cli.argv as any).installDeprecatedTypes
   );
-
+  if (pkgsToBeInstalled.devDeps.length === 0 && pkgsToBeInstalled.prodDeps.length === 0) {
+    return info("No dependencies are available to be installed");
+  }
   info(`Production dependencies to be installed: ${pkgsToBeInstalled.prodDeps.join(", ")}`);
   info("Installing production dependencies...");
   await runNpm(`install ${pkgsToBeInstalled.prodDeps.join(" ")}`);
@@ -29,7 +31,6 @@ async function main() {
     info("Installing development dependencies...");
     await runNpm(`install ${pkgsToBeInstalled.devDeps.join(" ")} --save-dev`);
   }
-  info("Finished");
 }
 
 main();
