@@ -1,6 +1,6 @@
 {
   "name": "npm-types",
-  "version": "1.0.3",
+  "version": "1.0.4",
   "description": "Helps you to write a bit less on the terminal",
   "files": [
     "dist"
