@@ -2,7 +2,6 @@
 ![Issues](https://img.shields.io/github/issues/priyanshurav/npm-types?style=flat-square)
 ![Weekly downloads](https://img.shields.io/npm/dw/npm-types?label=weekly%20downloads&style=flat-square)
 ![Total downloads](https://img.shields.io/npm/dt/npm-types?label=total%20downloads&style=flat-square)
-![Minified Size](https://img.shields.io/bundlephobia/min/npm-types?label=minified%20size&style=flat-square)
 ![Version](https://img.shields.io/npm/v/npm-types?style=flat-square)
 
 # npm-types
